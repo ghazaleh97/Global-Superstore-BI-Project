@@ -29,4 +29,5 @@ An interactive dashboard was built to analyze sales performance and key business
 
 ### 🔑 Key Measures & DAX
 To analyze profitability, a custom **Profit Margin** measure was created using DAX:
+
 Profit Margin = DIVIDE(SUM(FactSales[Profit]), SUM(FactSales[Sales]), 0)
